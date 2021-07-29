@@ -8,6 +8,14 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 
 
+## 📰 Notes
+
+Use your own branch and pull request to main 
+
+Also use new scene in Unity and do prefabs 
+
+
+
 ## 👨‍👧‍👧 Team
 
 <!--- put your links here --->
