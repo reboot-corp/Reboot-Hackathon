@@ -115,6 +115,9 @@ button {
 .about_block a {
   color: #5dc6f3;
 }
+.about_block a:hover {
+  color: #3a98c0;
+}
 
 /* downloads block */
 .download {
