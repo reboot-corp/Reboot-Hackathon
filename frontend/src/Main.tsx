@@ -19,6 +19,17 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           <div>
             <h1>Some Slogan</h1>
             <h2>Play your pain away</h2>
+
+            <a title="Try demo">
+              <button style={{ marginRight: "50px", marginTop: "50px" }}>
+                <p>Try demo</p>
+              </button>
+            </a>
+            <a title="Download">
+              <button>
+                <p>Download</p>
+              </button>
+            </a>
           </div>
         </div>
       </div>

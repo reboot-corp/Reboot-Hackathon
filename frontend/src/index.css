@@ -76,3 +76,16 @@ a {
   font-size: 48px;
   margin: 0;
 }
+.overlay button {
+  background-color: #5d87f3;
+  border: none;
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  border-radius: 20px;
+}
+.overlay button p {
+  font-size: 20px;
+  margin: 0;
+}
