@@ -4,6 +4,8 @@
 
 A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
+Website is live @ [nathacks.vercel.app](https://nathacks.vercel.app/)
+
 ## ✨ About
 
 
@@ -21,7 +23,7 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 ### Software
 
-* [Unity](https://unity.com/) - URP
+* [Unity](https://unity.com/) - URP + WebGL
 * [Blender](https://www.blender.org/)
 * [TreeIt](https://www.evolved-software.com/treeit/treeit) - tree generator
 * [Brainflow](https://brainflow.org/)
