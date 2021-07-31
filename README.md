@@ -8,6 +8,8 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 
 
+
+
 ## 📰 Notes
 
 * Use your own branch and pull request to main
@@ -15,13 +17,30 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 
 
+## 🔨 Tools
+
+### Software
+
+* [Unity](https://unity.com/)
+* [Blender](https://www.blender.org/)
+* [Brainflow](https://brainflow.org/)
+* [GitHub](https://www.github.com) - version control + project manager
+* 
+
+### Hardware
+
+* Muse
+* OpenBCI
+
+
+
 ## 👨‍👧‍👧 Team
 
 <!--- put your links here --->
 
-* [Andrew Li](http://andrewli.site/)
-* [Andrew Tischenko]()
-* [Manuel Illanes]()
-* [Faiyaz]()
-* [Teagan]()
+* [Andrew Li](http://andrewli.site/) - 
+* [Andrew Tischenko]() - 
+* [Faiyaz]() - 
+* [Manuel Illanes]() - 
+* [Teagan]() - 
 
