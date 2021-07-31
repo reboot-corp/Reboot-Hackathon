@@ -21,11 +21,13 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 ### Software
 
-* [Unity](https://unity.com/)
+* [Unity](https://unity.com/) - URP
 * [Blender](https://www.blender.org/)
+* [TreeIt](https://www.evolved-software.com/treeit/treeit) - tree generator
 * [Brainflow](https://brainflow.org/)
 * [GitHub](https://www.github.com) - version control + project manager
-* 
+* [Figma](https://www.figma.com/file/IcfrvkiN2HaKL51XlhzF6Y/natHACKS?node-id=0%3A1) - rapid UI prototyping
+* React-Typescript - Website
 
 ### Hardware
 
@@ -38,9 +40,9 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 <!--- put your links here --->
 
-* [Andrew Li](http://andrewli.site/) - 
-* [Andrew Tischenko]() - 
+* [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
+* [Andrew Tischenko]() - Unity/Game dev 
 * [Faiyaz]() - 
-* [Manuel Illanes]() - 
-* [Teagan]() - 
+* [Manuel Illanes]() - ML
+* [Teagan]() - Research
 
