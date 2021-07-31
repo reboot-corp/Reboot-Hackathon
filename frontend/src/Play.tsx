@@ -1,5 +1,5 @@
 import React from "react";
 
-export const PageNotFound: React.FC = () => {
+export const Play: React.FC = () => {
   return <></>;
 };

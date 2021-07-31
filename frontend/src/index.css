@@ -13,7 +13,8 @@ body {
   overflow-x: hidden;
 }
 
-a {
+a,
+button {
   transition: 0.2s;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -50,6 +51,9 @@ a {
   padding: 20px;
   text-decoration: none;
 }
+.navbar a:hover {
+  color: #cbd0d1;
+}
 /* pages */
 .block {
   height: 100vh;
@@ -84,8 +88,42 @@ a {
   padding-bottom: 15px;
   color: white;
   border-radius: 20px;
+  cursor: pointer;
+  filter: drop-shadow(8px 8px 4px rgba(17, 17, 17, 0.349));
+}
+.overlay button:hover {
+  background-color: #3962ca;
 }
 .overlay button p {
   font-size: 20px;
   margin: 0;
+}
+/* about block */
+.about_block {
+  color: #333046;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.about_block h2,
+.download h2 {
+  font-size: 48px;
+  padding-top: 100px;
+}
+.about_block p {
+  font-size: 40px;
+}
+.about_block a {
+  color: #5dc6f3;
+}
+
+/* downloads block */
+.download {
+  background-color: #333046;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.download h2,
+.download p {
+  color: white;
 }

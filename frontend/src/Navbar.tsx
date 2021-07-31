@@ -10,7 +10,12 @@ export const Navbar: React.FC<Prop> = ({ highlight = "" }) => {
     <>
       <nav className="navbar">
         <HashLink to="/#" title="Home">
-          <img alt="website logo" src={"logo.png"} className="navIcon" />
+          <img
+            alt="website logo"
+            src={"logo.png"}
+            className="navIcon"
+            style={{ marginRight: "5px" }}
+          />
           Name
         </HashLink>
         <div className="navItems">
