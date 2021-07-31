@@ -36,6 +36,19 @@ A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
 
 
+## 🏃‍♀️ Running
+
+Unity:
+
+* Have Unity 2020.3 (LTS)
+
+Front end:
+
+* Node
+* then do `npm install` followed by `npm start`
+
+
+
 ## 👨‍👧‍👧 Team
 
 <!--- put your links here --->
