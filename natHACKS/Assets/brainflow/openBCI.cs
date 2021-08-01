@@ -57,20 +57,14 @@ public class openBCI : MonoBehaviour
         // check https://brainflow.readthedocs.io/en/stable/index.html for api ref and more code samples
         //Debug.Log("Num elements: " + data.GetLength(1));
 
+        if (gameStartClass.gameStart==true)
+        {
+            classifyEEG(data);
 
-        Tuple<double[], double[]> bands = DataFilter.get_avg_band_powers(data, eeg_channels, sampling_rate, true);
-        //print(bands.Length);
-        //print(bands.Item1.Length);
-        double[] feature_vector = bands.Item1.Concatenate(bands.Item2);
-        print(feature_vector.Length);
-        BrainFlowModelParams model_params = new BrainFlowModelParams((int)BrainFlowMetrics.CONCENTRATION, (int)BrainFlowClassifiers.REGRESSION);
-        MLModel concentration = new MLModel(model_params);
-        concentration.prepare();
-        var concentration_lvl = concentration.predict(feature_vector);
-        concentration_lvl_txt.text = ((int)(concentration_lvl * 100f)).ToString() + " %";
-        concentrationClass.concentration_lvl = (float)concentration_lvl;
-        print("Concentration: " + concentration_lvl);
-        concentration.release();
+        }
+
+
+
     }
 
     // you need to call release_session and ensure that all resources correctly released
@@ -88,5 +82,24 @@ public class openBCI : MonoBehaviour
             }
             Debug.Log("Brainflow streaming was stopped");
         }
+    }
+
+
+
+    public void classifyEEG(double[,] data)
+    {
+        Tuple<double[], double[]> bands = DataFilter.get_avg_band_powers(data, eeg_channels, sampling_rate, true);
+        //print(bands.Length);
+        //print(bands.Item1.Length);
+        double[] feature_vector = bands.Item1.Concatenate(bands.Item2);
+        print(feature_vector.Length);
+        BrainFlowModelParams model_params = new BrainFlowModelParams((int)BrainFlowMetrics.CONCENTRATION, (int)BrainFlowClassifiers.REGRESSION);
+        MLModel concentration = new MLModel(model_params);
+        concentration.prepare();
+        var concentration_lvl = concentration.predict(feature_vector);
+        concentration_lvl_txt.text = ((int)(concentration_lvl * 100f)).ToString() + " %";
+        concentrationClass.concentration_lvl = (float)concentration_lvl;
+        print("Concentration: " + concentration_lvl);
+        concentration.release();
     }
 }
