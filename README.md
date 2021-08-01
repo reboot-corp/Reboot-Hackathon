@@ -2,20 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
-A Unity Project for [natHACKS](https://nathacks.devpost.com/)
-
 Website is live @ [nathacks.vercel.app](https://nathacks.vercel.app/)
 
 ## ✨ About
 
 
 
+A [natHACKS](https://nathacks.devpost.com/) project
 
-
-## 📰 Notes
-
-* Use your own branch and pull request to main
-* Also use new scene in Unity and do prefabs 
+![natHACKS](img/natHACKS.png)
 
 
 
@@ -57,7 +52,13 @@ Front end:
 
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko]() - Unity/Game dev 
-* [Faiyaz]() - Chad
+* [Faiyaz]() - Chad 
 * [Manuel Illanes]() - ML
 * [Teagan]() - Research
 
+
+
+## 📰 Notes
+
+* Use your own branch and pull request to main
+* Also use new scene in Unity and do prefabs 
