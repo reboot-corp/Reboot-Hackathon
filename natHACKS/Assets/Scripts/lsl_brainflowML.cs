@@ -65,7 +65,7 @@ public class lsl_brainflowML : MonoBehaviour
                             //Debug.Log(x[0]);
                             float[] x_arr_f = x.ToArray();
                             double[] x_arr_d = x_arr_f.ToDouble();
-                            datad.Add(x_arr_d);
+                            //datad.Add(x_arr_d);
                         }                            
                     }
 
