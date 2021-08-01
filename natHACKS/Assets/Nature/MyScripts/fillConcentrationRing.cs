@@ -20,6 +20,13 @@ public class fillConcentrationRing : MonoBehaviour
 
     public void concentrationFiller()
     {
-        ring.fillAmount = Mathf.Lerp(ring.fillAmount, concentrationClass.concentration_lvl, 3f*Time.deltaTime);
+        if (gameStartClass.ml == true)
+        {
+            ring.fillAmount = Mathf.Lerp(ring.fillAmount, concentrationClass.concentration_lvl, 3f * Time.deltaTime);
+        }
+        if (gameStartClass.bp == true)
+        {
+            ring.fillAmount = Mathf.Lerp(ring.fillAmount, concentrationClass.band_power, 3f * Time.deltaTime);
+        }
     }
 }
