@@ -19,6 +19,7 @@ public class menu : MonoBehaviour
         mainMenu.SetActive(true);
         settingsMenu.SetActive(false);
         gameMenu.SetActive(false);
+        didSetMuse = false;
     }
     public void changeMenuSetting() {
         mainMenu.SetActive(false);
