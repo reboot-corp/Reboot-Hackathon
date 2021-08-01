@@ -82,7 +82,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           <p style={{ flex: 1 }}>
             <HashLink title="Try demo" to="/play">
               <img
-                src="https://img.icons8.com/ios/250/000000/windows-client.png"
+                src="https://img.icons8.com/ios-filled/250/000000/monitor--v1.png"
                 style={{ filter: "invert(1)" }}
                 alt="Monitor"
               />
@@ -93,7 +93,11 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
             <HashLink title="Download for Windows" to="/">
               <img
                 src="https://raw.githubusercontent.com/Zeyu-Li/natHACKS/main/frontend/public/windows.svg"
-                style={{ filter: "invert(1)" }}
+                style={{
+                  filter: "brightness(0) invert(1)",
+                  height: "230px",
+                  paddingBottom: "20px",
+                }}
                 alt="Windows Logo"
               />
               {/* <div style={{ width: "250px", height: "250px" }}>
