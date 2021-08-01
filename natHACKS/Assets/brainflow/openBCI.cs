@@ -59,6 +59,7 @@ public class openBCI : MonoBehaviour
 
 
         Tuple<double[], double[]> bands = DataFilter.get_avg_band_powers(data, eeg_channels, sampling_rate, true);
+        //print(bands.Length);
         //print(bands.Item1.Length);
         double[] feature_vector = bands.Item1.Concatenate(bands.Item2);
         print(feature_vector.Length);
@@ -67,6 +68,7 @@ public class openBCI : MonoBehaviour
         concentration.prepare();
         var concentration_lvl = concentration.predict(feature_vector);
         concentration_lvl_txt.text = ((int)(concentration_lvl * 100f)).ToString() + " %";
+        concentrationClass.concentration_lvl = (float)concentration_lvl;
         print("Concentration: " + concentration_lvl);
         concentration.release();
     }
