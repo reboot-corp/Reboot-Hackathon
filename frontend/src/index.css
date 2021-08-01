@@ -58,6 +58,7 @@ button {
 .block {
   height: 100vh;
 }
+
 .overlay {
   background-color: rgba(51, 48, 70, 0.83);
   width: 100vw;
@@ -109,8 +110,13 @@ button {
   font-size: 48px;
   padding-top: 100px;
 }
-.about_block p {
+.about_block p,
+.about_block li {
   font-size: 40px;
+  margin: 0;
+}
+.about_block ul {
+  margin: 0;
 }
 .about_block a {
   color: #5dc6f3;
@@ -129,4 +135,32 @@ button {
 .download h2,
 .download p {
   color: white;
+}
+.download p {
+  font-size: 40px;
+  text-align: center;
+}
+.downloadSection {
+  display: flex;
+}
+.downloadSection > p {
+  margin: 0;
+}
+.downloadSection a:hover {
+  color: rgb(255, 255, 255);
+}
+/* for smaller screens */
+
+@media only screen and (max-width: 800px) {
+  .overlay h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .download p,
+  .about_block p,
+  .about_block li {
+    font-size: 32px;
+  }
 }

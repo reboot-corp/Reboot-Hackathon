@@ -1,6 +1,6 @@
 # natHACKS
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
 A Unity Project for [natHACKS](https://nathacks.devpost.com/)
 
@@ -57,7 +57,7 @@ Front end:
 
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko]() - Unity/Game dev 
-* [Faiyaz]() - 
+* [Faiyaz]() - Chad
 * [Manuel Illanes]() - ML
 * [Teagan]() - Research
 
