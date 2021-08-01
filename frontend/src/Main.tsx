@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-import { ReactComponent as Windows } from "./windows.svg";
 
 import { Navbar } from "./Navbar";
 
@@ -93,7 +92,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           <p style={{ flex: 1 }}>
             <HashLink title="Download for Windows" to="/">
               <img
-                src={"windows.svg"}
+                src="https://raw.githubusercontent.com/Zeyu-Li/natHACKS/main/frontend/public/windows.svg"
                 style={{ filter: "invert(1)" }}
                 alt="Windows Logo"
               />
