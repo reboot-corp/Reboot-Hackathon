@@ -5328,7 +5328,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5001ec4ca4cf5f649a6ed215dcf3edb3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9217,9 +9217,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4583710768521311785}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.196, y: 0.052, z: -0.0283}
-  m_LocalScale: {x: 5.9000244, y: 5.9000244, z: 3.0115013}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.9000244, y: 5.9000254, z: 3.011502}
   m_Children: []
   m_Father: {fileID: 3718361794539365286}
   m_RootOrder: 0
@@ -9347,9 +9347,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4094219517135649052}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 465.64478, y: 6.8119373, z: 461.4549}
-  m_LocalScale: {x: 24.276, y: 24.276, z: 24.276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 470.40286, y: 8.074289, z: 460.76788}
+  m_LocalScale: {x: 24.276001, y: 24.276, z: 24.276}
   m_Children:
   - {fileID: 570796944471505091}
   m_Father: {fileID: 0}
@@ -9364,6 +9364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3718361794539365286}
+  - component: {fileID: 4094219517135649053}
   m_Layer: 0
   m_Name: Rock1
   m_TagString: Untagged
@@ -9371,6 +9372,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4094219517135649053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094219517135649052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc0694b0d81d5548a94070f7217a511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 1
+  min: 0
+  concentration: 1
 --- !u!1 &4583710768521311785
 GameObject:
   m_ObjectHideFlags: 0
