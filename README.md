@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
-[![banner](img/banner.png)](https://nathacks.vercel.app/)
+[![banner](img/banner2.png)](https://nathacks.vercel.app/)
 
 Check out the website @ [nathacks.vercel.app](https://nathacks.vercel.app/)
 
@@ -31,6 +31,7 @@ Play your brains out!
 * [GitHub](https://www.github.com) - version control + project manager
 * [Figma](https://www.figma.com/file/IcfrvkiN2HaKL51XlhzF6Y/natHACKS?node-id=0%3A1) - rapid UI prototyping
 * React-Typescript - Website
+* Adobe Illustrator - Vector assets
 
 ### Hardware
 

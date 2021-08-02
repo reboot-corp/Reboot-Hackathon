@@ -76,7 +76,11 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
         </ul>
         <p>
           See the course code along with the abstract on{" "}
-          <a href="https://github.com/Zeyu-Li/natHACKS" title="GitHub repo">
+          <a
+            href="https://github.com/Zeyu-Li/natHACKS"
+            title="GitHub repo"
+            target="_blank"
+          >
             GitHub
           </a>
         </p>
