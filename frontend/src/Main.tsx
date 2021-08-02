@@ -85,11 +85,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           </a>
         </p>
       </div>
-      <div
-        id="downloads"
-        className="block download"
-        style={{ minHeight: "100vh" }}
-      >
+      <div id="downloads" className="download" style={{ minHeight: "100vh" }}>
         <h2>Downloads</h2>
         <div className="downloadSection">
           <p style={{ flex: 1 }}>
