@@ -76,16 +76,16 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
         </ul>
         <p>
           See the course code along with the abstract on{" "}
-          <a href="https://github.com/Zeyu-Li/natHACKS" title="GitHub repo">
+          <a
+            href="https://github.com/Zeyu-Li/natHACKS"
+            title="GitHub repo"
+            target="_blank"
+          >
             GitHub
           </a>
         </p>
       </div>
-      <div
-        id="downloads"
-        className="block download"
-        style={{ minHeight: "100vh" }}
-      >
+      <div id="downloads" className="download" style={{ minHeight: "100vh" }}>
         <h2>Downloads</h2>
         <div className="downloadSection">
           <p style={{ flex: 1 }}>
