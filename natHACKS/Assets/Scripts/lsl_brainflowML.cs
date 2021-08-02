@@ -16,13 +16,13 @@ using System.Runtime.Serialization;
 
 
  
-public static class ArrayExtension
-{
+//public static class ArrayExtension
+//{
 
-    public static double[] ToDouble(this float[] arr) =>
-                                     System.Array.ConvertAll(arr, x => (double)x);
+    //public static double[] ToDouble(this float[] arr) =>
+                                     //System.Array.ConvertAll(arr, x => (double)x);
 
-}
+//}
 public class lsl_brainflowML : MonoBehaviour
 {
     public float sampletime = 1f;
@@ -83,7 +83,7 @@ public class lsl_brainflowML : MonoBehaviour
                             for (int x = 0; x < streamnum; x++)
                             {
                                 //Debug.Log(x[0]);
-                                datad[y, x] = System.Convert.ToDouble(dataf[y][x]);
+                                //datad[y, x] = System.Convert.ToDouble(dataf[y][x]);
                             }
                         }
                         dataf = new List<List<float>>();

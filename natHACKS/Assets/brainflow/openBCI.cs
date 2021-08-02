@@ -36,8 +36,6 @@ public class openBCI : MonoBehaviour
             eeg_channels = BoardShim.get_eeg_channels(board_shim.get_board_id());
             print("sampling rate :" + sampling_rate);
 
-
-
         }
         catch (BrainFlowException e)
         {
