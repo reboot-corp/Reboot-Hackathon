@@ -10,7 +10,7 @@ interface Prop {
 export const Main: React.FC<Prop> = ({ highlight = "" }) => {
   // sets title
   useEffect(() => {
-    document.title = "natHACKS | Home";
+    document.title = "Reboot | Home";
   }, []);
 
   return (
@@ -19,11 +19,14 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
       <div
         id="home"
         className="block"
-        style={{ backgroundImage: `url(${"demo.gif"})` }}
+        style={{
+          backgroundImage: `url(${"demo.gif"})`,
+          backgroundSize: "cover",
+        }}
       >
         <div className="overlay">
           <div>
-            <h1>Some Slogan</h1>
+            <h1>Reboot</h1>
             <h2>Play your pain away</h2>
 
             <HashLink
@@ -47,22 +50,28 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           </div>
         </div>
       </div>
-      <div id="about" className="block about_block">
+      <div id="about" className="about_block" style={{ minHeight: "100vh" }}>
         <h2>About</h2>
-        <p style={{ marginBottom: "40px" }}>
-          This is a Unity Game built for{" "}
-          <a
-            href="https://nathacks.devpost.com/"
-            target="_blank"
-            rel="noreferrer"
-            title="natHACKS link"
-          >
-            natHacks 2021
-          </a>
-          .<br /> Currently supported hardware:
+        <p
+          style={{
+            paddingRight: "23vw",
+            lineHeight: "1.4",
+          }}
+        >
+          <b>REBOOT</b> is a "hands-off" <b>VR/PC</b> prototype for use in pain
+          research and rehabilitation to help address financial barriers in the
+          delivery of VR neurofeedback intervention.
+        </p>
+        <p
+          style={{
+            marginTop: "40px",
+            marginBottom: "20px",
+          }}
+        >
+          Currently supported hardware include:
         </p>
         <ul style={{ marginBottom: "40px" }}>
-          <li>OpenBCI</li>
+          <li style={{ paddingBottom: "10px" }}>OpenBCI</li>
           <li>Muse</li>
         </ul>
         <p>
@@ -82,7 +91,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           <p style={{ flex: 1 }}>
             <HashLink title="Try demo" to="/play">
               <img
-                src="https://img.icons8.com/ios/250/000000/windows-client.png"
+                src="https://img.icons8.com/ios-filled/250/000000/monitor--v1.png"
                 style={{ filter: "invert(1)" }}
                 alt="Monitor"
               />
@@ -93,7 +102,11 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
             <HashLink title="Download for Windows" to="/">
               <img
                 src="https://raw.githubusercontent.com/Zeyu-Li/natHACKS/main/frontend/public/windows.svg"
-                style={{ filter: "invert(1)" }}
+                style={{
+                  filter: "brightness(0) invert(1)",
+                  height: "230px",
+                  paddingBottom: "20px",
+                }}
                 alt="Windows Logo"
               />
               {/* <div style={{ width: "250px", height: "250px" }}>
