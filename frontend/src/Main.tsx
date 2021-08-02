@@ -60,7 +60,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
         >
           <b>REBOOT</b> is a "hands-off" <b>VR/PC</b> prototype for use in pain
           research and rehabilitation to help address financial barriers in the
-          delivery of VR neurofeedback intervention.
+          delivery of VR neurofeedback intervention
         </p>
         <p
           style={{

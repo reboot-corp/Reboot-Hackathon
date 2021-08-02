@@ -1,10 +1,12 @@
+<a name=top></a>
+
 # Reboot
 
 [![banner](img/banner2.png)](https://nathacks.vercel.app/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
-**REBOOT** is a "hands-off" **VR/PC** prototype for use in pain research and rehabilitation to help address financial barriers in the delivery of VR neurofeedback intervention. Check out the [**website**](https://nathacks.vercel.app/) @ [nathacks.vercel.app](https://nathacks.vercel.app/) for more info!
+**REBOOT** is a "hands-off" **VR/PC** prototype for use in pain research and rehabilitation to help address financial barriers in the delivery of VR neurofeedback intervention. Check out the [**website**](https://nathacks.vercel.app/) @ [rebootgame.vercel.app](https://rebootgame.vercel.app/) for more info!
 
 
 
@@ -67,9 +69,9 @@ Front end:
 
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko]() - Unity/Game dev 
-* [Faiyaz]() - Chad 
-* [Manuel Illanes](https://github.com/rmib200) -  Unity/Game dev + ML
-* [Teagan]() - Research
+* [Faiyaz]() - Scene design, Chad 
+* [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
+* [Teagan]() - Research, Design
 
 
 
@@ -79,3 +81,7 @@ Front end:
 
 * Use your own branch and pull request to main
 * Also use new scene in Unity and do prefabs 
+* Abstract is the about section but you can view it in glorious LaTeX [here]()
+
+[🔝 Back to Top](#top)
+
