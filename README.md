@@ -68,7 +68,7 @@ Front end:
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko]() - Unity/Game dev 
 * [Faiyaz]() - Chad 
-* [Manuel Illanes]() - ML
+* [Manuel Illanes](https://github.com/rmib200) -  Unity/Game dev + ML
 * [Teagan]() - Research
 
 
