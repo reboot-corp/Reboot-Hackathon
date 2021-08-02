@@ -556,21 +556,42 @@
 [2021-08-01 18:19:48.353] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-08-01 18:19:48.354] [board_logger] [info] use command b to start streaming
 [2021-08-01 18:19:48.404] [board_logger] [debug] start streaming
-[2021-08-02 00:10:52.546] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
-[2021-08-02 00:10:52.546] [board_logger] [debug] use dyn lib: C:\Users\faiya\Desktop\natHACKS\natHACKS\GanglionLib.dll
-[2021-08-02 00:10:52.546] [board_logger] [trace] Board object created 1
-[2021-08-02 00:10:52.688] [board_logger] [debug] Library is loaded
-[2021-08-02 00:10:52.688] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
-[2021-08-02 00:10:52.688] [board_logger] [debug] ganglionlib initialized
-[2021-08-02 00:10:52.688] [board_logger] [info] mac address is not specified, try to find ganglion without it
-[2021-08-02 00:10:52.688] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
-[2021-08-02 00:10:52.688] [board_logger] [error] failed to Open Ganglion Device 18
-[2021-08-02 00:11:29.802] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
-[2021-08-02 00:11:29.802] [board_logger] [debug] use dyn lib: C:\Users\faiya\Desktop\natHACKS\natHACKS\GanglionLib.dll
-[2021-08-02 00:11:29.802] [board_logger] [trace] Board object created 1
-[2021-08-02 00:11:29.804] [board_logger] [debug] Library is loaded
-[2021-08-02 00:11:29.804] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
-[2021-08-02 00:11:29.804] [board_logger] [debug] ganglionlib initialized
-[2021-08-02 00:11:29.804] [board_logger] [info] mac address is not specified, try to find ganglion without it
-[2021-08-02 00:11:29.804] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
-[2021-08-02 00:11:29.804] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 18:22:50.975] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 18:22:50.975] [board_logger] [debug] use dyn lib: D:\Unity\natHACKS\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 18:22:50.975] [board_logger] [trace] Board object created 1
+[2021-08-01 18:22:50.977] [board_logger] [debug] Library is loaded
+[2021-08-01 18:22:50.977] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 18:22:50.977] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 18:22:50.977] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 18:22:52.479] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-08-01 18:22:52.480] [board_logger] [info] use command b to start streaming
+[2021-08-01 18:22:52.541] [board_logger] [debug] start streaming
+[2021-08-01 18:53:23.009] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 18:53:23.010] [board_logger] [debug] use dyn lib: D:\Unity\natHACKS\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 18:53:23.010] [board_logger] [trace] Board object created 1
+[2021-08-01 18:53:23.012] [board_logger] [debug] Library is loaded
+[2021-08-01 18:53:23.012] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 18:53:23.012] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 18:53:23.012] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 18:53:24.786] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-08-01 18:53:24.787] [board_logger] [info] use command b to start streaming
+[2021-08-01 18:53:24.846] [board_logger] [debug] start streaming
+[2021-08-01 20:06:11.751] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 20:06:11.752] [board_logger] [debug] use dyn lib: D:\Unity\natHACKS\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 20:06:11.752] [board_logger] [trace] Board object created 1
+[2021-08-01 20:06:11.754] [board_logger] [debug] Library is loaded
+[2021-08-01 20:06:11.754] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 20:06:11.754] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 20:06:11.754] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 20:06:13.340] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-08-01 20:06:13.342] [board_logger] [info] use command b to start streaming
+[2021-08-01 20:06:13.404] [board_logger] [debug] start streaming
+[2021-08-01 22:58:47.911] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:58:47.913] [board_logger] [debug] use dyn lib: D:\Unity\natHACKS\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:58:47.913] [board_logger] [trace] Board object created 1
+[2021-08-01 22:58:47.939] [board_logger] [debug] Library is loaded
+[2021-08-01 22:58:47.939] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:58:47.939] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:58:47.940] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:58:49.438] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-08-01 22:58:49.477] [board_logger] [error] failed to init streamer
