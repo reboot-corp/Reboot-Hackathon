@@ -7,7 +7,7 @@ export const PageNotFound: React.FC = () => {
     <div className="main_block">
       <Navbar />
       <div className="main_block download error">
-        <div style={{ justifyItems: "center" }}>
+        <div>
           <div
             style={{
               textAlign: "center",
