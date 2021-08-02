@@ -80,6 +80,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
             href="https://github.com/Zeyu-Li/natHACKS"
             title="GitHub repo"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
