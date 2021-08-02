@@ -586,3 +586,12 @@
 [2021-08-01 20:06:13.340] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-08-01 20:06:13.342] [board_logger] [info] use command b to start streaming
 [2021-08-01 20:06:13.404] [board_logger] [debug] start streaming
+[2021-08-01 22:58:47.911] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:58:47.913] [board_logger] [debug] use dyn lib: D:\Unity\natHACKS\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:58:47.913] [board_logger] [trace] Board object created 1
+[2021-08-01 22:58:47.939] [board_logger] [debug] Library is loaded
+[2021-08-01 22:58:47.939] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:58:47.939] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:58:47.940] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:58:49.438] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-08-01 22:58:49.477] [board_logger] [error] failed to init streamer
