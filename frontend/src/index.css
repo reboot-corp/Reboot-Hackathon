@@ -112,7 +112,7 @@ button {
 }
 .about_block p,
 .about_block li {
-  font-size: 24px;
+  font-size: 32px;
   margin: 0;
 }
 .about_block ul {
@@ -142,15 +142,25 @@ button {
 }
 .downloadSection {
   display: flex;
+  height: 70%;
+  align-items: center;
 }
 .downloadSection > p {
   margin: 0;
+}
+.downloadSection a {
+  color: #551a8b;
 }
 .downloadSection a:hover {
   color: rgb(255, 255, 255);
 }
 /* for smaller screens */
 
+@media only screen and (max-width: 1200px) {
+  .about_block p {
+    font-size: 32px;
+  }
+}
 @media only screen and (max-width: 800px) {
   .overlay h1 {
     font-size: 70px;

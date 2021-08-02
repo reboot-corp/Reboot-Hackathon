@@ -19,7 +19,10 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
       <div
         id="home"
         className="block"
-        style={{ backgroundImage: `url(${"demo.gif"})` }}
+        style={{
+          backgroundImage: `url(${"demo.gif"})`,
+          backgroundSize: "cover",
+        }}
       >
         <div className="overlay">
           <div>
@@ -53,7 +56,6 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           style={{
             paddingRight: "23vw",
             lineHeight: "1.4",
-            fontSize: "28px",
           }}
         >
           <b>REBOOT</b> is a "hands-off" <b>VR/PC</b> prototype for use in pain
