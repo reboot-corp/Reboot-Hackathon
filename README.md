@@ -1,14 +1,20 @@
-# natHACKS
+# Reboot
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
-Website is live @ [nathacks.vercel.app](https://nathacks.vercel.app/)
+
+
+Check out the website @ [nathacks.vercel.app](https://nathacks.vercel.app/)
 
 ## ✨ About
 
+This project represents the collaborative efforts of a small team, submitted for [NeurAlbertaTech’s 2021 inaugural natHACKS](https://nathacks.devpost.com/) - a 64-hour hackathon organized around neurotechnology. 
 
+**REBOOT** is a "hands-off" VR/PC experience, immersing the player in an array of 3D-rendered environments and tasking them with the objective of levitating a rock with their minds. The more you concentrate, the more the rock responds (yes, like a Jedi). 
 
-A [natHACKS](https://nathacks.devpost.com/) project
+Designed as an open-source prototype for use in pain research and rehabilitation, this game is compatible with both Muse and OpenBCI technology to optimize accessibility and address some of the financial barriers in the delivery of VR neurofeedback intervention. We hope to expand upon these concepts and extend the project’s utility to broaden the scope of novel psychological research along both therapeutic and foundational dimensions, including investigations into the intersections of physical and mental pain perception. 
+
+Play your brains out!
 
 ![natHACKS](img/natHACKS.png)
 

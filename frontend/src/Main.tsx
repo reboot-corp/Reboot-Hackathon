@@ -10,7 +10,7 @@ interface Prop {
 export const Main: React.FC<Prop> = ({ highlight = "" }) => {
   // sets title
   useEffect(() => {
-    document.title = "natHACKS | Home";
+    document.title = "Reboot | Home";
   }, []);
 
   return (
@@ -23,7 +23,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
       >
         <div className="overlay">
           <div>
-            <h1>Some Slogan</h1>
+            <h1>Reboot</h1>
             <h2>Play your pain away</h2>
 
             <HashLink
@@ -49,20 +49,27 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
       </div>
       <div id="about" className="block about_block">
         <h2>About</h2>
-        <p style={{ marginBottom: "40px" }}>
-          This is a Unity Game built for{" "}
-          <a
-            href="https://nathacks.devpost.com/"
-            target="_blank"
-            rel="noreferrer"
-            title="natHACKS link"
-          >
-            natHacks 2021
-          </a>
-          .<br /> Currently supported hardware:
+        <p
+          style={{
+            paddingRight: "23vw",
+            lineHeight: "1.4",
+            fontSize: "28px",
+          }}
+        >
+          <b>REBOOT</b> is a "hands-off" <b>VR/PC</b> prototype for use in pain
+          research and rehabilitation to help address financial barriers in the
+          delivery of VR neurofeedback intervention.
+        </p>
+        <p
+          style={{
+            marginTop: "40px",
+            marginBottom: "20px",
+          }}
+        >
+          Currently supported hardware include:
         </p>
         <ul style={{ marginBottom: "40px" }}>
-          <li>OpenBCI</li>
+          <li style={{ paddingBottom: "10px" }}>OpenBCI</li>
           <li>Muse</li>
         </ul>
         <p>

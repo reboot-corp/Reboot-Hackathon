@@ -82,7 +82,7 @@ button {
   margin: 0;
 }
 .overlay button {
-  background-color: #5d87f3;
+  background-color: #309df4;
   border: none;
   padding: 30px;
   padding-top: 15px;
@@ -112,7 +112,7 @@ button {
 }
 .about_block p,
 .about_block li {
-  font-size: 40px;
+  font-size: 24px;
   margin: 0;
 }
 .about_block ul {
@@ -161,6 +161,6 @@ button {
   .download p,
   .about_block p,
   .about_block li {
-    font-size: 32px;
+    font-size: 24px;
   }
 }

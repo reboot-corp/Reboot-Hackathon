@@ -4,7 +4,7 @@ import { Navbar } from "./Navbar";
 export const Play: React.FC = () => {
   // sets title
   useEffect(() => {
-    document.title = "natHACKS | Play";
+    document.title = "Reboot | Play";
   }, []);
 
   return (

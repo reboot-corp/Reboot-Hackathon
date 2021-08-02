@@ -16,7 +16,7 @@ export const Navbar: React.FC<Prop> = ({ highlight = "" }) => {
             className="navIcon"
             style={{ marginRight: "5px" }}
           />
-          Name
+          Reboot
         </HashLink>
         <div className="navItems">
           <HashLink
