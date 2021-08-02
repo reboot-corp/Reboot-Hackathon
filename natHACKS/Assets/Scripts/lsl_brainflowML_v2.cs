@@ -44,38 +44,8 @@ public class lsl_brainflowML_v2 : MonoBehaviour
     private int channelCount = 0;
     private int[] channelCount_arr = { 1 };
     double lastTimeStamp;
+    
 
-    private BoardShim board_shim = null;
-    private int sampling_rate = 0;
-    int[] eeg_channels;
-    public TextMeshProUGUI concentration_lvl_txt;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        try
-        {
-            BoardShim.set_log_file("brainflow_log.txt");
-            BoardShim.enable_dev_board_logger();
-
-            BrainFlowInputParams input_params = new BrainFlowInputParams();
-            int board_id = (int)BoardIds.GANGLION_BOARD;
-            input_params.serial_port = "COM8";
-            board_shim = new BoardShim(board_id, input_params);
-            board_shim.prepare_session();
-            board_shim.start_stream(450000, "file://brainflow_data.csv:w");
-            sampling_rate = BoardShim.get_sampling_rate(board_id);
-            Debug.Log("Brainflow streaming was started");
-            int nfft = DataFilter.get_nearest_power_of_two(sampling_rate);
-            eeg_channels = BoardShim.get_eeg_channels(board_shim.get_board_id());
-            print("sampling rate :" + sampling_rate);
-
-        }
-        catch (BrainFlowException e)
-        {
-            Debug.Log(e);
-        }
-    }
     void Update()
     {
         if (streamInlet == null)

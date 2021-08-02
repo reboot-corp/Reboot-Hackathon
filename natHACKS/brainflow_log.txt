@@ -586,3 +586,192 @@
 [2021-08-01 20:06:13.340] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-08-01 20:06:13.342] [board_logger] [info] use command b to start streaming
 [2021-08-01 20:06:13.404] [board_logger] [debug] start streaming
+[2021-08-01 22:46:03.359] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:46:03.360] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:46:03.360] [board_logger] [trace] Board object created 1
+[2021-08-01 22:46:03.369] [board_logger] [debug] Library is loaded
+[2021-08-01 22:46:03.369] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:46:03.369] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:46:03.369] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:46:03.369] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:46:03.369] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 22:47:39.811] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:47:39.811] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:47:39.811] [board_logger] [trace] Board object created 1
+[2021-08-01 22:47:39.812] [board_logger] [debug] Library is loaded
+[2021-08-01 22:47:39.812] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:47:39.812] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:47:39.812] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:47:39.812] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:47:39.812] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 22:49:07.392] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:49:07.392] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:49:07.392] [board_logger] [trace] Board object created 1
+[2021-08-01 22:49:07.393] [board_logger] [debug] Library is loaded
+[2021-08-01 22:49:07.393] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:49:07.393] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:49:07.393] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:49:07.393] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:49:07.393] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 22:51:55.194] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:51:55.194] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:51:55.194] [board_logger] [trace] Board object created 1
+[2021-08-01 22:51:55.195] [board_logger] [debug] Library is loaded
+[2021-08-01 22:51:55.195] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:51:55.195] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:51:55.195] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:51:55.195] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:51:55.195] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 22:56:06.834] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:56:06.835] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:56:06.835] [board_logger] [trace] Board object created 1
+[2021-08-01 22:56:06.836] [board_logger] [debug] Library is loaded
+[2021-08-01 22:56:06.836] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:56:06.836] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:56:06.836] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:56:06.836] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:56:06.836] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 22:57:43.884] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 22:57:43.884] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 22:57:43.884] [board_logger] [trace] Board object created 1
+[2021-08-01 22:57:43.885] [board_logger] [debug] Library is loaded
+[2021-08-01 22:57:43.885] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 22:57:43.885] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 22:57:43.885] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 22:57:43.885] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 22:57:43.885] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:02:33.864] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:02:33.864] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:02:33.864] [board_logger] [trace] Board object created 1
+[2021-08-01 23:02:33.864] [board_logger] [debug] Library is loaded
+[2021-08-01 23:02:33.864] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:02:33.864] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:02:33.864] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:02:33.864] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:02:33.864] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:03:51.841] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:03:51.841] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:03:51.841] [board_logger] [trace] Board object created 1
+[2021-08-01 23:03:51.842] [board_logger] [debug] Library is loaded
+[2021-08-01 23:03:51.842] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:03:51.842] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:03:51.842] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:03:51.842] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:03:51.842] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:08:48.570] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:08:48.570] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:08:48.571] [board_logger] [trace] Board object created 1
+[2021-08-01 23:08:48.571] [board_logger] [debug] Library is loaded
+[2021-08-01 23:08:48.571] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:08:48.571] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:08:48.571] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:08:48.571] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:08:48.571] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:09:44.127] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:09:44.127] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:09:44.127] [board_logger] [trace] Board object created 1
+[2021-08-01 23:09:44.128] [board_logger] [debug] Library is loaded
+[2021-08-01 23:09:44.128] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:09:44.128] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:09:44.128] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:09:44.128] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:09:44.128] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:11:01.995] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:11:01.995] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:11:01.995] [board_logger] [trace] Board object created 1
+[2021-08-01 23:11:01.996] [board_logger] [debug] Library is loaded
+[2021-08-01 23:11:01.996] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:11:01.996] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:11:01.996] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:11:01.996] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:11:01.996] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:11:35.987] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:11:35.987] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:11:35.987] [board_logger] [trace] Board object created 1
+[2021-08-01 23:11:35.988] [board_logger] [debug] Library is loaded
+[2021-08-01 23:11:35.988] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:11:35.988] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:11:35.988] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:11:35.988] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:11:35.988] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:12:13.940] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:12:13.940] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:12:13.940] [board_logger] [trace] Board object created 1
+[2021-08-01 23:12:13.941] [board_logger] [debug] Library is loaded
+[2021-08-01 23:12:13.941] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:12:13.941] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:12:13.941] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:12:13.941] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:12:13.941] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:13:44.974] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:13:44.974] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:13:44.974] [board_logger] [trace] Board object created 1
+[2021-08-01 23:13:44.975] [board_logger] [debug] Library is loaded
+[2021-08-01 23:13:44.975] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:13:44.975] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:13:44.975] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:13:44.975] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:13:44.975] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:15:06.020] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:15:06.020] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:15:06.020] [board_logger] [trace] Board object created 1
+[2021-08-01 23:15:06.021] [board_logger] [debug] Library is loaded
+[2021-08-01 23:15:06.021] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:15:06.021] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:15:06.021] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:15:06.021] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:15:06.021] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:19:58.055] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:19:58.055] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:19:58.055] [board_logger] [trace] Board object created 1
+[2021-08-01 23:19:58.056] [board_logger] [debug] Library is loaded
+[2021-08-01 23:19:58.056] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:19:58.056] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:19:58.056] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:19:58.056] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:19:58.056] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:25:54.298] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:25:54.298] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:25:54.298] [board_logger] [trace] Board object created 1
+[2021-08-01 23:25:54.299] [board_logger] [debug] Library is loaded
+[2021-08-01 23:25:54.299] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:25:54.299] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:25:54.299] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:25:54.299] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:25:54.299] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:27:49.382] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:27:49.382] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:27:49.382] [board_logger] [trace] Board object created 1
+[2021-08-01 23:27:49.383] [board_logger] [debug] Library is loaded
+[2021-08-01 23:27:49.383] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:27:49.383] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:27:49.383] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:27:49.383] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:27:49.383] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:33:26.101] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:33:26.101] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:33:26.101] [board_logger] [trace] Board object created 1
+[2021-08-01 23:33:26.102] [board_logger] [debug] Library is loaded
+[2021-08-01 23:33:26.102] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:33:26.102] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:33:26.102] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:33:26.102] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:33:26.102] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:37:50.363] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:37:50.363] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:37:50.363] [board_logger] [trace] Board object created 1
+[2021-08-01 23:37:50.364] [board_logger] [debug] Library is loaded
+[2021-08-01 23:37:50.364] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:37:50.364] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:37:50.364] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:37:50.364] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:37:50.364] [board_logger] [error] failed to Open Ganglion Device 18
+[2021-08-01 23:42:39.647] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM8","timeout":0}
+[2021-08-01 23:42:39.647] [board_logger] [debug] use dyn lib: C:\Users\antis\Documents\GitHub\natHACKS\natHACKS\GanglionLib.dll
+[2021-08-01 23:42:39.647] [board_logger] [trace] Board object created 1
+[2021-08-01 23:42:39.648] [board_logger] [debug] Library is loaded
+[2021-08-01 23:42:39.648] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-08-01 23:42:39.648] [board_logger] [debug] ganglionlib initialized
+[2021-08-01 23:42:39.649] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-08-01 23:42:39.649] [board_logger] [error] Make sure you provided correct port name and have permissions to open it(run with sudo/admin). And close all other apps using this port.
+[2021-08-01 23:42:39.649] [board_logger] [error] failed to Open Ganglion Device 18
