@@ -1159,8 +1159,8 @@ MonoBehaviour:
   mainMenu: {fileID: 7441386843230804326}
   settingsMenu: {fileID: 7441386843228311923}
   gameMenu: {fileID: 7441386841728633412}
-  PC: {fileID: 0}
-  VR: {fileID: 0}
+  PC: {fileID: 6009836696065495691}
+  VR: {fileID: 4254845434286181816}
 --- !u!82 &7877801740057470734
 AudioSource:
   m_ObjectHideFlags: 0

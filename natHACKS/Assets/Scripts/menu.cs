@@ -23,13 +23,13 @@ public class menu : MonoBehaviour
 
     public void changePC() {
         PlayerPrefs.SetInt("pc", 1);
-        PC.SetActive(true);
-        VR.SetActive(false);
+        PC.SetActive(false);
+        VR.SetActive(true);
     }
     public void changeVR() {
         PlayerPrefs.SetInt("pc", 0);
-        PC.SetActive(false);
-        VR.SetActive(true);
+        PC.SetActive(true);
+        VR.SetActive(false);
     }
 
     public void changeMenuMain() {
