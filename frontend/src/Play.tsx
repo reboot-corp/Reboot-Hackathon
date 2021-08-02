@@ -8,8 +8,10 @@ export const Play: React.FC = () => {
   }, []);
 
   return (
-    <div className="block" style={{ backgroundColor: "#333046" }}>
+    <div className="main_block play" style={{ backgroundColor: "#333046" }}>
       <Navbar />
+      {/* insert iframe here: */}
+      <p>Recommend fullscreen for best experience</p>
     </div>
   );
 };
