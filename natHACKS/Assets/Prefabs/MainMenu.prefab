@@ -815,7 +815,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7441386841859371937}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: quit
+        m_MethodName: startScene3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7441386841859371937}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: changeMenuSetting
+        m_MethodName: startScene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3386,7 +3386,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7441386841859371937}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: changeMenuGame
+        m_MethodName: startScene1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

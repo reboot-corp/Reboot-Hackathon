@@ -75,6 +75,12 @@ public class menu : MonoBehaviour
 
     // example of starting a scene (must be loaded in project first - ask Andrew if unsure)
     public void startScene1() {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void startScene2() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+    public void startScene3() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 }
