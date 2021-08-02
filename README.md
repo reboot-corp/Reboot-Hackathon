@@ -70,7 +70,7 @@ Front end:
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko]() - Unity/Game dev 
 * [Faiyaz]() - Scene design, Chad 
-* [Manuel Illanes]() - ML, Unity/Game Dev
+* [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
 * [Teagan]() - Research, Design
 
 
