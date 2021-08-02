@@ -50,7 +50,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
           </div>
         </div>
       </div>
-      <div id="about" className="block about_block">
+      <div id="about" className="about_block" style={{ minHeight: "100vh" }}>
         <h2>About</h2>
         <p
           style={{
