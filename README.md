@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
 
-
+[![banner](img/banner.png)](https://nathacks.vercel.app/)
 
 Check out the website @ [nathacks.vercel.app](https://nathacks.vercel.app/)
 
