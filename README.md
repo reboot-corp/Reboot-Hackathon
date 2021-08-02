@@ -68,8 +68,8 @@ Front end:
 <!--- put your links here --->
 
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
-* [Andrew Tischenko]() - Unity/Game dev 
-* [Faiyaz]() - Scene design, Chad 
+* [Andrew Tischenko](https://github.com/antis0007) - Unity/Game dev 
+* [Faiyaz](https://github.com/Faiyaz42) - Scene design, (Senior) Chad 
 * [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
 * [Teagan]() - Research, Design
 
@@ -81,7 +81,7 @@ Front end:
 
 * Use your own branch and pull request to main
 * Also use new scene in Unity and do prefabs 
-* Abstract is the about section but you can view it in glorious LaTeX [here]()
+* Abstract is the about section but you can view it in glorious LaTeX [here](https://github.com/Zeyu-Li/Reboot/blob/main/abstract/abstract.pdf)
 
 [🔝 Back to Top](#top)
 
