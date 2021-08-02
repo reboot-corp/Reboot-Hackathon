@@ -35,6 +35,7 @@ public class openBCI : MonoBehaviour
             Debug.Log("Brainflow streaming was started");
             nfft = DataFilter.get_nearest_power_of_two(sampling_rate);
             eeg_channels = BoardShim.get_eeg_channels(board_shim.get_board_id());
+            //print(sampling_rate);
             print("sampling rate :" + sampling_rate);
 
         }
@@ -113,7 +114,7 @@ public class openBCI : MonoBehaviour
 
     public void bandPowerEEG(double[,] data)
     {
-        int channel = eeg_channels[0]; //AF1
+        int channel = eeg_channels[0]; //Fp1
         //board_shim.release_session();
         double[] detrend = DataFilter.detrend(data.GetRow(channel), (int)DetrendOperations.LINEAR);
         Tuple<double[], double[]> psd = DataFilter.get_psd_welch(detrend, nfft, nfft / 2, sampling_rate, (int)WindowFunctions.HANNING);

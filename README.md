@@ -26,7 +26,9 @@ Play your brains out! 🎉
 
 ## 💻 Screenshots
 
+![screenshot1](img/screenshot1.jpg)
 
+![screenshot2](img/screenshot2.jpg)
 
 
 
@@ -71,7 +73,7 @@ Front end:
 * [Andrew Tischenko](https://github.com/antis0007) - Unity/Game dev 
 * [Faiyaz](https://github.com/Faiyaz42) - Scene design, (Senior) Chad 
 * [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
-* [Teagan]() - Research, Design
+* [Teagan](www.linkedin.com/in/teagan-lauriente-82a8a71bb) - Research, Design
 
 
 
