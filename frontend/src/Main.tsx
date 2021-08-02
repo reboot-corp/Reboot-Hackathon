@@ -104,6 +104,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
               title="Download for Windows"
               href="https://github.com/Zeyu-Li/Reboot/releases/tag/1.0"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://raw.githubusercontent.com/Zeyu-Li/natHACKS/main/frontend/public/windows.svg"

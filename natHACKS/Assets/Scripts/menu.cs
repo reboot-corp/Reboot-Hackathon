@@ -9,10 +9,27 @@ public class menu : MonoBehaviour
     public GameObject settingsMenu;
     public GameObject gameMenu;
 
+    public GameObject PC;
+    public GameObject VR;
+
     private bool didSetMuse = false;
 
     void Start() {
-        PlayerPrefs.SetInt("muse", -1);
+        if (PlayerPrefs.GetInt("muse", -5) == -5)
+            PlayerPrefs.SetInt("muse", -1);
+        if (PlayerPrefs.GetInt("pc", -1) == -1)
+            PlayerPrefs.SetInt("pc", 1);
+    }
+
+    public void changePC() {
+        PlayerPrefs.SetInt("pc", 1);
+        PC.SetActive(false);
+        VR.SetActive(true);
+    }
+    public void changeVR() {
+        PlayerPrefs.SetInt("pc", 0);
+        PC.SetActive(true);
+        VR.SetActive(false);
     }
 
     public void changeMenuMain() {

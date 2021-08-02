@@ -58,6 +58,9 @@ button {
 .block {
   height: 100vh;
 }
+.main_block {
+  min-height: 100vh;
+}
 
 .overlay {
   background-color: rgba(51, 48, 70, 0.83);
@@ -154,8 +157,23 @@ button {
 .downloadSection a:hover {
   color: rgb(255, 255, 255);
 }
-/* for smaller screens */
+/* play section */
+.play p {
+  text-align: center;
+  margin: 0;
+  /* padding-top: 200px; */
+  color: white;
+  font-size: 32px;
+}
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+}
 
+/* for smaller screens */
 @media only screen and (max-width: 1200px) {
   .about_block p {
     font-size: 32px;
