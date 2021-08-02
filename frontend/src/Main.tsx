@@ -100,7 +100,11 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
             </HashLink>
           </p>
           <p style={{ flex: 1 }}>
-            <HashLink title="Download for Windows" to="/">
+            <a
+              title="Download for Windows"
+              href="https://github.com/Zeyu-Li/Reboot/releases/tag/1.0"
+              target="_blank"
+            >
               <img
                 src="https://raw.githubusercontent.com/Zeyu-Li/natHACKS/main/frontend/public/windows.svg"
                 style={{
@@ -123,7 +127,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
                 Download for <br />
                 Windows
               </p>
-            </HashLink>
+            </a>
           </p>
         </div>
       </div>
