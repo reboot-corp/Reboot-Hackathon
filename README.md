@@ -4,7 +4,15 @@
 
 [![banner](img/banner2.png)](https://nathacks.vercel.app/)
 
+---
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![Vercel](https://vercelbadge.vercel.app/api/Zeyu-Li/natHACKS)
+
+[natHACKS](https://nathacks.devpost.com/) Research Track Winners! 🎉🎊
+
+See our devpost [here](https://devpost.com/software/reboot-0eyc7p): [devpost.com/software/reboot-0eyc7p](https://devpost.com/software/reboot-0eyc7p)
+
+## 📑 Summary
 
 **REBOOT** is a "hands-off" **VR/PC** prototype for use in pain research and rehabilitation to help address financial barriers in the delivery of VR neurofeedback intervention. Check out the [**website**](https://nathacks.vercel.app/) @ [rebootgame.vercel.app](https://rebootgame.vercel.app/) for more info!
 
@@ -73,7 +81,7 @@ Front end:
 * [Andrew Tischenko](https://github.com/antis0007) - Unity/Game dev 
 * [Faiyaz](https://github.com/Faiyaz42) - Scene design, (Senior) Chad 
 * [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
-* [Teagan](www.linkedin.com/in/teagan-lauriente-82a8a71bb) - Research, Design
+* [Teagan Lauriente](http://www.linkedin.com/in/teagan-lauriente-82a8a71bb) - Research, Design
 
 
 
