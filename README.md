@@ -79,7 +79,7 @@ Front end:
 
 * [Andrew Li](http://andrewli.site/) - Unity/Game dev + front end
 * [Andrew Tischenko](https://github.com/antis0007) - Unity/Game dev 
-* [Faiyaz](https://github.com/Faiyaz42) - Scene design, (Senior) Chad 
+* [Faiyaz Ahmed](https://github.com/Faiyaz42) - Scene design, (Senior) Chad 
 * [Manuel Illanes](https://github.com/rmib200) - ML, Unity/Game Dev
 * [Teagan Lauriente](http://www.linkedin.com/in/teagan-lauriente-82a8a71bb) - Research, Design
 
