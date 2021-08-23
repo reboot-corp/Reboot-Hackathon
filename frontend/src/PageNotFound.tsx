@@ -13,7 +13,7 @@ export const PageNotFound: React.FC = () => {
               textAlign: "center",
             }}
           >
-            <img src={"bird.gif"} alt="bird gif" title="Bird is the word" />
+            🐧🚜
           </div>
           <h2 style={{ textAlign: "center", margin: 0, paddingTop: "5vh" }}>
             404 Error
