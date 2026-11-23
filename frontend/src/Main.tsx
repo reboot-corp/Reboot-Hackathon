@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router";
 
 import { Navbar } from "./Navbar";
 
@@ -29,7 +29,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
             <h1>Reboot</h1>
             <h2>Play your pain away</h2>
 
-            <HashLink
+            <Link
               title="Try demo"
               to="/play"
               className={highlight === "home" ? "highlightedNav" : ""}
@@ -37,8 +37,8 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
               <button style={{ marginRight: "50px", marginTop: "50px" }}>
                 <p>Try demo</p>
               </button>
-            </HashLink>
-            <HashLink
+            </Link>
+            <Link
               title="Download"
               to="/#downloads"
               className={highlight === "home" ? "highlightedNav" : ""}
@@ -46,7 +46,7 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
               <button>
                 <p>Download</p>
               </button>
-            </HashLink>
+            </Link>
           </div>
         </div>
       </div>
@@ -90,14 +90,14 @@ export const Main: React.FC<Prop> = ({ highlight = "" }) => {
         <h2>Downloads</h2>
         <div className="downloadSection">
           <p style={{ flex: 1 }}>
-            <HashLink title="Try demo" to="/play">
+            <Link title="Try demo" to="/play">
               <img
                 src="https://img.icons8.com/ios-filled/250/000000/monitor--v1.png"
                 style={{ filter: "invert(1)" }}
                 alt="Monitor"
               />
               <p>Play online</p>
-            </HashLink>
+            </Link>
           </p>
           <p style={{ flex: 1 }}>
             <a
